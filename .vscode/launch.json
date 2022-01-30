@@ -1,0 +1,23 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+
+            /*--- interpolate.py ---*/
+            "args":[
+                "--input_video", "VIDEO/Tendonman_3s_720p.mp4",
+                "--factor", "4",
+                //"--load_model", "FLAVR_2x.pth",
+                "--load_model", "FLAVR_4x.pth",
+                //"--load_model", "FLAVR_8x.pth"],
+        }
+    ]
+}
